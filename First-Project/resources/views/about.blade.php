@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Page</title>
-</head>
-<body>
-    <h1>This is our About Page</h1>
-    <a href="{{route('home')}}">Home Page</a>
-    <a href="{{route('mypost')}}">Post</a>
-</body>
-</html>
+    @include('pages.header')
+
+    <article>
+        <h1>About Page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolores, doloribus accusamus velit debitis accusantium quae tenetur aliquam ut laborum ullam assumenda nulla blanditiis. Veniam delectus magni quisquam numquam id pariatur voluptates cumque minima nemo vitae eveniet sint nobis veritatis omnis unde, natus rem, praesentium doloremque! Delectus harum sapiente non mollitia veniam accusamus quas recusandae, repellendus tenetur illo deleniti dicta nostrum laborum nihil. Temporibus, quas non dolorem itaque, exercitationem magni praesentium omnis a odio impedit dolore? Voluptas commodi explicabo praesentium exercitationem culpa tenetur dolorem officiis? Impedit, accusamus explicabo repellendus labore odit, itaque suscipit incidunt dignissimos, dolorem autem fugiat aperiam?</p>
+    </article>
+
+    @include('pages.sidebar')
+
+    @include('pages.footer')
