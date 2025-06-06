@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>This is our Post Page</h1>
-    <a href="{{ route('user.home') }}">Home Page</a>
+    <a href="{{route('home')}}">Home Page</a>
+    <a href="{{route('about')}}">About</a>
 </body>
 </html>
