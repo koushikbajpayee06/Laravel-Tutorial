@@ -8,3 +8,9 @@
 @section('title')
     Home
 @endsection
+
+@push('scripts')
+    <script src="/jquery.js"></script>
+    <script src="/bootstrap.js"></script>
+    <script src="/example.js"></script>
+@endpush
