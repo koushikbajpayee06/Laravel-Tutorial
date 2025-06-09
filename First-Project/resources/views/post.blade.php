@@ -1,10 +1,15 @@
-    @include('pages.header')
+@extends('layouts.masterlayout')
 
-    <article>
-        <h1>Post Page</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolores, doloribus accusamus velit debitis accusantium quae tenetur aliquam ut laborum ullam assumenda nulla blanditiis. Veniam delectus magni quisquam numquam id pariatur voluptates cumque minima nemo vitae eveniet sint nobis veritatis omnis unde, natus rem, praesentium doloremque! Delectus harum sapiente non mollitia veniam accusamus quas recusandae, repellendus tenetur illo deleniti dicta nostrum laborum nihil. Temporibus, quas non dolorem itaque, exercitationem magni praesentium omnis a odio impedit dolore? Voluptas commodi explicabo praesentium exercitationem culpa tenetur dolorem officiis? Impedit, accusamus explicabo repellendus labore odit, itaque suscipit incidunt dignissimos, dolorem autem fugiat aperiam?</p>
-    </article>
+@section('content')
+    <h2>Post Page</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt consectetur in commodi animi iure, sunt quasi quia quibusdam nihil velit doloremque id quo maiores ducimus dolore tempora pariatur excepturi ipsam? Nam eius et accusamus quo consequuntur vero mollitia tempora eaque. Velit pariatur quibusdam corporis laboriosam minus quis ut error voluptas sed animi ipsam quod facilis suscipit nesciunt cum est, ex odio. Molestias alias neque labore deserunt magnam incidunt est, enim dignissimos, explicabo nisi eveniet illo nesciunt fuga. Repudiandae iure eos corrupti saepe molestias quaerat iste quis natus maxime. Nostrum minus ad perferendis dicta voluptate dolorum at assumenda debitis natus cumque?</p>
+@endsection
 
-    @include('pages.sidebar')
+@section('title')
+    Post
+@endsection
 
-    @include('pages.footer')
+@section('sidebar')
+    @parent
+    <p>This is appended to the master sidebar</p>
+@endsection

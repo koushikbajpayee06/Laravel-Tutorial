@@ -1,25 +1,10 @@
-{{-- @php
-    $user = ["name"=>'koushik', "age"=>32, "salary"=>25000, "dept"=>'Web Developer'];
-    
-@endphp --}}
-{{-- @include('pages.header',['names'=> $user])
-{{-- @include('pages.header',['name'=>'Yahoo Baba']) --}}
-{{-- @include('pages.footer')
+@extends('layouts.masterlayout')
 
-@includeIf('pages.content') --}}
+@section('content')
+    <h2>Home Page</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure facilis obcaecati voluptates dolores laboriosam non ab atque maiores, ratione velit. Exercitationem quae molestias possimus itaque aut soluta repellendus eveniet veniam tempore reprehenderit maiores odit nemo quo voluptatem dolore voluptate sapiente sunt, pariatur aliquid? Harum, ratione dolore tenetur deleniti ex, laboriosam explicabo quidem temporibus nam esse a iusto consectetur, nulla laudantium veritatis rem est fugiat. Asperiores nulla porro error veritatis, aliquid at. Vero, quod? Cupiditate quae possimus numquam molestias ratione repellat eius a libero atque. Deserunt aperiam cupiditate necessitatibus eum nemo perferendis, possimus accusamus iusto. Debitis illum corporis enim amet quam?</p>
+@endsection
 
-{{-- Including Subviews with Conditional Check  --}}
-
-{{-- @includeWhen(true,' pages.header', ['name' => $user]) --}}
-
-    @include('pages.header')
-
-    <article>
-        <h1>Home Page</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolores, doloribus accusamus velit debitis accusantium quae tenetur aliquam ut laborum ullam assumenda nulla blanditiis. Veniam delectus magni quisquam numquam id pariatur voluptates cumque minima nemo vitae eveniet sint nobis veritatis omnis unde, natus rem, praesentium doloremque! Delectus harum sapiente non mollitia veniam accusamus quas recusandae, repellendus tenetur illo deleniti dicta nostrum laborum nihil. Temporibus, quas non dolorem itaque, exercitationem magni praesentium omnis a odio impedit dolore? Voluptas commodi explicabo praesentium exercitationem culpa tenetur dolorem officiis? Impedit, accusamus explicabo repellendus labore odit, itaque suscipit incidunt dignissimos, dolorem autem fugiat aperiam?</p>
-    </article>
-
-    @include('pages.sidebar')
-
-    @include('pages.footer')
-       
+@section('title')
+    Home
+@endsection

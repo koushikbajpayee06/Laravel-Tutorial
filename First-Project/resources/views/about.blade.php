@@ -1,10 +1,10 @@
-    @include('pages.header')
+@extends('layouts.masterlayout')
 
-    <article>
-        <h1>About Page</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolores, doloribus accusamus velit debitis accusantium quae tenetur aliquam ut laborum ullam assumenda nulla blanditiis. Veniam delectus magni quisquam numquam id pariatur voluptates cumque minima nemo vitae eveniet sint nobis veritatis omnis unde, natus rem, praesentium doloremque! Delectus harum sapiente non mollitia veniam accusamus quas recusandae, repellendus tenetur illo deleniti dicta nostrum laborum nihil. Temporibus, quas non dolorem itaque, exercitationem magni praesentium omnis a odio impedit dolore? Voluptas commodi explicabo praesentium exercitationem culpa tenetur dolorem officiis? Impedit, accusamus explicabo repellendus labore odit, itaque suscipit incidunt dignissimos, dolorem autem fugiat aperiam?</p>
-    </article>
+@section('content')
+<h2>About Page</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam expedita qui debitis totam alias quasi ex voluptate commodi quam, quibusdam voluptates dolore doloremque fugiat optio assumenda quia placeat, animi magni non facilis, illum delectus nulla. Beatae aperiam vel neque veniam ipsa quaerat culpa, maiores veritatis, aliquid hic laborum harum dolore eum ducimus eligendi repellat laboriosam ad porro sunt delectus quasi provident asperiores nemo! Cumque id minima ratione eaque saepe nesciunt! Adipisci, non itaque quidem unde aliquid officiis porro facere quae. Itaque adipisci ducimus sapiente maiores quae aliquid exercitationem recusandae, perspiciatis dolorum, ipsum sequi quia nemo atque laboriosam numquam voluptatum unde.</p>
+@endsection
 
-    @include('pages.sidebar')
-
-    @include('pages.footer')
+@section('title')
+    Home
+@endsection
